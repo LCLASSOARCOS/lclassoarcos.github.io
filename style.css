@@ -97,6 +97,10 @@ header a:hover {
     font-size: 1.6em;
 }
 
+#somos-1articulo a {
+    text-decoration: none;
+    color: #100202;
+}
 #somos-1articulo{
 
 }
@@ -112,13 +116,13 @@ h2 .color-acento {
 }
 
 #nuestros-articulos {
-    background-color: rgb(30, 30, 30);
-    color: white;
-    text-align: center;
-}
+        background-color: rgb(30, 30, 30);
+        color: white;
+        text-align: center;
+    }
 
-#nuestros-articulos .container {
-    padding: 150px 12px;}
+ #nuestros-articulos .container {
+        padding: 150px 12px;}
 
 #nuestros-articulos p{
     display: none;
@@ -140,16 +144,20 @@ h2 .color-acento {
     margin: 10px
 }
 
+#nuestros-articulos .articulos{
+
+}
+
 #nuestros-articulos .carta{
     background-position: center center;
     background-size: cover;
-    padding: 50px;
+    padding: 50px 0px;
     margin: 20px;
     border-radius:15px ;
 }
 
 #nuestros-articulos button{
-    padding: 10px;
+    font-size: 1.2em;
 }
 
 
@@ -219,7 +227,7 @@ footer p{
 
     #somos-1articulo .container{
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly
 
 
     }
@@ -228,12 +236,17 @@ footer p{
         width: 50%;
         max-width: 600px;
         text-align: initial;
+        padding-left: 30px;
         padding: 0px 30px;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
 
+    #somos-articulo h2{
+        margin-top: 0px;
+    }
+    
     #somos-1articulo .img-container{
         background-image: linear-gradient(
             0deg,
@@ -245,5 +258,38 @@ footer p{
         height: 500px;
         width: 400px;
     }
+
+    #nuestros-articulos .articulos{
+        display: flex;
+        justify-content: center;
+    }
    
-}
+    #nuestros-articulos p{
+        display: block;
+        margin-bottom: 50px 50px;
+        margin: 20px 10px;
+        padding: 10px 0px;
+    }
+
+    #nuestros-articulos h2{
+        font-size: 4em;
+    }
+
+    #nuestros-articulos h3{
+        margin-top: 0;
+    }
+
+    #nuestros-articulos .carta{
+        padding: 10px 10px;
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+        background-color: #222;
+    }
+
+    #nuestros-articulos button{
+        padding: 10px 10px;
+        font-size: 1.2em;
+        }
+    
+    }
+
+
